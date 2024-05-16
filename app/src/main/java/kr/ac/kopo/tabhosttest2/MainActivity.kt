@@ -76,11 +76,11 @@ class MainActivity : AppCompatActivity() , ActionBar.TabListener{
             linear.layoutParams = params
             linear.orientation = LinearLayout.VERTICAL
 
-            if(tabName === "firstTab")
+            if(tabName === "FirstTab")
                 linear.setBackgroundColor(Color.MAGENTA)
-            if(tabName === "secondTab")
+            if(tabName === "SecondTab")
                 linear.setBackgroundColor(Color.YELLOW)
-            if(tabName === "thirdTab")
+            if(tabName === "ThirdTab")
                 linear.setBackgroundColor(Color.GRAY)
             return linear
         }
